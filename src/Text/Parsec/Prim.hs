@@ -691,7 +691,7 @@ manyAccum acc p =
     in unParser p s (walk []) cerr manyErr (\e -> eok [] s e)
 
 manyErr :: a
-manyErr = error "Text.ParserCombinators.Parsec.Prim.many: combinator 'many' is applied to a parser that accepts an empty string."
+manyErr = error "Text.Parsec.Prim.many: combinator 'many' is applied to a parser that accepts an empty string."
 
 
 -- < Running a parser: monadic (runPT) and pure (runP)

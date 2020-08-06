@@ -12,10 +12,6 @@ description:    Parsec is designed from scratch as an industrial-strength parser
                 .
                 The main entry point is the "Text.Parsec" module which provides
                 defaults for parsing 'Char'acter data.
-                .
-                The "Text.ParserCombinators.Parsec" module hierarchy contains
-                the legacy @parsec-2@ API and may be removed at some point in
-                the future.
 
 license:        BSD3
 license-file:   LICENSE
@@ -52,16 +48,6 @@ library
         Text.Parsec.Expr
         Text.Parsec.Language
         Text.Parsec.Perm
-        Text.ParserCombinators.Parsec
-        Text.ParserCombinators.Parsec.Char
-        Text.ParserCombinators.Parsec.Combinator
-        Text.ParserCombinators.Parsec.Error
-        Text.ParserCombinators.Parsec.Expr
-        Text.ParserCombinators.Parsec.Language
-        Text.ParserCombinators.Parsec.Perm
-        Text.ParserCombinators.Parsec.Pos
-        Text.ParserCombinators.Parsec.Prim
-        Text.ParserCombinators.Parsec.Token
 
     build-depends:
         base       >= 4.5.0   && < 4.15,
